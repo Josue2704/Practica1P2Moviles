@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Botón para solicitar el permiso de ubicación (peligroso) -->
+    <Button
+        android:id="@+id/btn_solicitar_ubicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solicitar Permiso Ubicación" />
+
+    <!-- Botón para solicitar el permiso de cámara (peligroso) -->
+    <Button
+        android:id="@+id/btn_solicitar_camara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solicitar Permiso Cámara"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Botón para abrir configuración del permiso especial (ventanas sobre otras apps) -->
+    <Button
+        android:id="@+id/btn_solicitar_alerta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solicitar Permiso Ventanas"
+        android:layout_marginTop="16dp"/>
+
+    <!-- TextView para mostrar el estado de los permisos -->
+    <TextView
+        android:id="@+id/tv_estado_permisos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estado de permisos"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
